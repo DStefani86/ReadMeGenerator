@@ -26,6 +26,11 @@ const questions = [
     },
     {
         type: 'input',
+        message: 'What is your description of this application?',
+        name: 'description',
+    },
+    {
+        type: 'input',
         message: 'What is your installation process?',
         name: 'install',
     },
