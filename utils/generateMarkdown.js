@@ -20,21 +20,30 @@ ${renderLicenseBadge(data.license)}
 
 ## Table of Contents
 
-[Installation](#installation)\n
+\n[Installation](#installation)\n
+\n[Usage](#Usage)\n
+\n[License](#License)\n
+\n[Contributors](#Contributions)\n
+\n[Tests](#Tests)\n
 \n[Questions](#questions)\n
 
 ## Installation
-\`\`\`
 ${data.install}
-\`\`\`
 
 ## Usage
+${data.usage}
 
 ## License 
 ${data.license}
 
-## Questions
+## Contributions
+${data.contributors}
 
+## Tests
+${data.tests}
+
+## Questions
+\n
 You can reach me at ${data.email} or via GitHub [${
     data.username
   }](https://github.com/${data.username})
