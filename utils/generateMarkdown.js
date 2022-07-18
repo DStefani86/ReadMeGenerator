@@ -2,6 +2,8 @@ function renderLicenseBadge(license) {
   return `![License](https://img.shields.io/badge/License-${license}-blue.svg)`;
 }
 
+//TODO: gitignore properties
+
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {}
