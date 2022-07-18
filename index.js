@@ -31,6 +31,11 @@ const questions = [
         message: 'What is your installation process?',
         name: 'install',
     },
+    {
+        type: 'input',
+        message: 'How do you use this application?',
+        name: 'usage',
+    }
     
 ];
 

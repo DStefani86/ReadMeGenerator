@@ -30,7 +30,7 @@ ${data.install}
 
 ## Usage
 
-## License
+## License 
 ${data.license}
 
 ## Questions
