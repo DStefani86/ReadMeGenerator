@@ -22,7 +22,7 @@ const questions = [
         type: 'checkbox',
         message: 'What License would you like to use?',
         name: 'license',
-        choices: ['MIT', 'Apache_2.0', 'BSD_3--Clause']
+        choices: ['MIT', 'Apache-2.0', 'BSD_3--Clause', '']
     },
     {
         type: 'input',

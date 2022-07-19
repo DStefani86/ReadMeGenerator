@@ -1,16 +1,21 @@
 function renderLicenseBadge(license) {
-  return `![License](https://img.shields.io/badge/License-${license}-blue.svg)`;
+  if (license === '') {
+   return '';
+  }
+  else {return `[![License](https://img.shields.io/badge/License-${license}-blue.svg)](http://opensource.org/licenses/${license})`;}
 }
 
 //TODO: gitignore properties
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-function renderLicenseLink(license) {}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) {}
+function renderLicenseSection(license) {
+  if (license === '') {
+    return '';
+  }
+  else {return `This application is licensed by ${license}`;}
+}
 
 function generateMarkdown(data) {
   return `# ${data.title}
@@ -35,7 +40,7 @@ ${data.install}
 ${data.usage}
 
 ## License 
-${data.license}
+${renderLicenseSection(data.license)}
 
 ## Contributions
 ${data.contributors}
