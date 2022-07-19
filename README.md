@@ -21,10 +21,11 @@ This is application to generate a README.md file for your own project that inclu
 
 
 ## Installation
-Visit my GitHub repository featured in the Questions section below. Find the ReadMeGenerator repository. Clone the SSH down from my the repository into your own terminal and enjoy! Node must be installed to use this application.
+Visit my GitHub repository featured in the Questions section below. Find the ReadMeGenerator repository. Clone the SSH down from my the repository into your own terminal and enjoy! Node must be installed to use this application. After you have gone through the installation process, run the 'node index.js' command. A series of prompts will appear.
 
 ## Usage
-After you have gone through the installation process open the folders where you cloned the repository. 
+
+
 
 ## License 
 This application is licensed by MIT
