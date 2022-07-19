@@ -27,10 +27,10 @@ ${data.description}
 ## Table of Contents
 
 [Installation](#installation)\n
-[Usage](#Usage)\n
-[License](#License)\n
-[Contributors](#Contributions)\n
-[Tests](#Tests)\n
+[Usage](#usage)\n
+[License](#license)\n
+[Contributors](#contributions)\n
+[Tests](#tests)\n
 [Questions](#questions)\n
 
 ## Installation
@@ -50,7 +50,7 @@ ${data.tests}
 
 ## Questions
 \n
-You can reach me at ${data.email} or via GitHub [${
+You can reach me at [${data.email}] or via GitHub [${
     data.username
   }](https://github.com/${data.username})
 `;
