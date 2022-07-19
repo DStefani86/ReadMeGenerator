@@ -43,7 +43,7 @@ Next I used the user-given data from the prompts to fill in the desired fields. 
 
 Ultimately, when all put together it will look like this video example. 
 
-[WorkingEx01](https://drive.google.com/file/d/1YFh7Cef8pu3KwHJFHSBYFKPj5fnTvhfJ/view?usp=sharing)
+![WorkingEx01](./assets/images/GifEx01.gif)
 
 
 ## License 
